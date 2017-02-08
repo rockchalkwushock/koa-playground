@@ -9,7 +9,10 @@
     "start": "nodemon index.js"
   },
   "dependencies": {
-    "koa": "next"
+    "koa": "next",
+    "koa-bodyparser": "^2.3.0",
+    "koa-logger": "^1.3.1",
+    "koa-router": "^5.4.0"
   },
   "devDependencies": {
     "babel-plugin-syntax-async-functions": "^6.13.0",
@@ -18,6 +21,7 @@
     "babel-preset-es2015": "^6.22.0",
     "babel-preset-stage-0": "^6.22.0",
     "babel-register": "^6.22.0",
+    "eslint-config-equimper": "^1.3.3",
     "nodemon": "^1.11.0"
   }
 }
